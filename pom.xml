@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.itextpdf</groupId>
+  <artifactId>ExamApplication</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>iText 7 exam application</name>
+  <description>generating application for exams</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.itextpdf</groupId>
+  		<artifactId>kernel</artifactId>
+  		<version>7.1.2</version>
+  	</dependency>
+	<dependency>
+        <groupId>com.itextpdf</groupId>
+        <artifactId>io</artifactId>
+        <version>7.1.2</version>
+    </dependency>
+  	<dependency>
+  		<groupId>com.itextpdf</groupId>
+  		<artifactId>layout</artifactId>
+  		<version>7.1.2</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.itextpdf</groupId>
+  		<artifactId>forms</artifactId>
+  		<version>7.1.2</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.itextpdf</groupId>
+  		<artifactId>sign</artifactId>
+  		<version>7.1.2</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.bouncycastle</groupId>
+  		<artifactId>bcprov-jdk15on</artifactId>
+  		<version>1.59</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.bouncycastle</groupId>
+  		<artifactId>bcpkix-jdk15on</artifactId>
+  		<version>1.59</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.slf4j</groupId>
+  		<artifactId>slf4j-log4j12</artifactId>
+  		<version>1.7.25</version>
+  	</dependency>
+  </dependencies>
+</project>
