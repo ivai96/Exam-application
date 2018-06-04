@@ -70,8 +70,7 @@ public class SignDocument {
         IExternalDigest digest = new BouncyCastleDigest();
         signer.signDetached(digest, pks, chain, null, null, null, 0, subfilter);
     }
-
-    
+ 
     public void getKeyStore()
     {    
     	System.out.println("Ве молам одеберете го вашиот сертификат");

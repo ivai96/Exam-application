@@ -14,7 +14,7 @@ import java.security.GeneralSecurityException;
 
 public class MainClass {
 
-	public static final String DEST = "results/chapter01/hello_world.pdf";
+	public static final String DEST = "results/Prijava.pdf";
 	public static boolean isStudent1;
 	
 	public static void main(String args[]) throws IOException, Exception {
@@ -47,6 +47,7 @@ public class MainClass {
 				System.out.println("Одговорете со „да“ или „не“");
 		}
 	}
+
 
 	public void createPdf(String dest) throws IOException, GeneralSecurityException {
 		
